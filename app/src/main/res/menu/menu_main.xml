@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
+    <group android:checkableBehavior="single">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
@@ -27,4 +28,5 @@
         android:icon="@drawable/ic_search"
         app:showAsAction="ifRoom|collapseActionView"
         app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    </group>
 </menu>
